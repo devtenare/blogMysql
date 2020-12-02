@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add text</title>
+    <link rel="stylesheet" href="./s/css/admin.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-page">
+            <div class="form">
+                <% 
+                    try{
+                        if(message === undefined){}
+                        else if(message === null){}
+                        else if(message == ''){}
+                        else{
+                        %>
+                        <% 
+                            if(status !== undefined && status !== null && status != ''){
+                                if(status == 'error'){
+                                %>
+                                <div class="error"><%= message %></div>
+                                <%
+                                }
+                                else if(status == 'success'){
+                                    %>
+                                <div class="success"><%= message %></div>
+                                <%
+                                }
+                            }
+                        %>
+                <%
+                        }
+                    }
+                    catch(err){
+                        console.log('message or status is not defined')
+                    }
+                    %>
+                <form class="login-form" method="POST" action="/addtext">
+                    <a href="/adminlogout">logout</a>
+                    <input required type="text" name="title" placeholder="Title" />
+                    <textarea required cols="40" rows="20" name="article" placeholder="Article"></textarea>
+                    <button type="submit">login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+﻿/* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
+
+.w3-section, .w3-code {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important
+}
+.w3-code, .w3-codespan {
+    font-family: Consolas, "courier new";
+    font-size: 16px
+}
+
+.w3-code {
+    width: auto;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 4px solid #4CAF50;
+    word-wrap: break-word
+}
+
+.w3-codespan {
+    color: crimson;
+    background-color: #f1f1f1;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 110%
+}
+
+.darktheme .w3-code{background-color:rgb(40,44,52);color:white;border-left-color:rgb(40,44,52)!important}
+.tagcolor{color:mediumblue}
+.tagnamecolor{color:brown}
+.attributecolor{color:red}
+.attributevaluecolor{color:mediumblue}
+.commentcolor{color:green}
+.cssselectorcolor{color:brown}
+.csspropertycolor{color:red}
+.csspropertyvaluecolor{color:mediumblue}
+.cssdelimitercolor{color:black}
+.cssimportantcolor{color:red}  
+.jscolor{color:black}
+.jskeywordcolor{color:mediumblue}
+.jsstringcolor{color:brown}
+.jsnumbercolor{color:red}
+.jspropertycolor{color:black}
+.javacolor{color:black}
+.javakeywordcolor{color:mediumblue}
+.javastringcolor{color:brown}
+.javanumbercolor{color:red}
+.javapropertycolor{color:black}
+.kotlincolor{color:black}
+.kotlinkeywordcolor{color:mediumblue}
+.kotlinstringcolor{color:brown}
+.kotlinnumbercolor{color:red}
+.kotlinpropertycolor{color:black}
+.phptagcolor{color:red}
+.phpcolor{color:black}
+.phpkeywordcolor{color:mediumblue}
+.phpglobalcolor{color:goldenrod}
+.phpstringcolor{color:brown}
+.phpnumbercolor{color:red}  
+.pythoncolor{color:black}
+.pythonkeywordcolor{color:mediumblue}
+.pythonstringcolor{color:brown}
+.pythonnumbercolor{color:red}  
+.angularstatementcolor{color:red}
+.sqlcolor{color:black}
+.sqlkeywordcolor{color:mediumblue}
+.sqlstringcolor{color:brown}
+.sqlnumbercolor{color:} 
+.darktheme .w3-code{background-color:#121212;color:white;border-left-color:rgb(40,44,52)!important}
+.darktheme .w3-example pre{background-color:rgb(40,44,52)!important;border-left-color:rgb(40,44,52)}
+.darktheme .tagcolor{color:#88ccbb/*green2*/!important}
+.darktheme .tagnamecolor{color:#ff9999/*red*/!important}
+.darktheme .attributecolor{color:#c5a5c5/*purple*/!important}
+.darktheme .attributevaluecolor{color:#88c999/*green*/!important}
+.darktheme .commentcolor{color:#999!important}
+.darktheme .cssselectorcolor{color:#ff9999/*red*/!important}
+.darktheme .csspropertycolor{color:#c5a5c5/*purple*/!important}
+.darktheme .csspropertyvaluecolor{color:#88c999/*green*/!important}
+.darktheme .cssdelimitercolor{color:white!important}
+.darktheme .cssimportantcolor{color:#ff9999/*red*/!important}
+.darktheme .jscolor{color:white!important}
+.darktheme .jskeywordcolor{color:#c5a5c5/*purple*/!important}
+.darktheme .jsstringcolor{color:#88c999/*green*/!important}
+.darktheme .jsnumbercolor{color:#80b6ff/*blue*/!important}
+.darktheme .jspropertycolor{color:white!important}
+.darktheme .javacolor{color:white!important}
+.darktheme .javakeywordcolor{color:#88c999/*green*/!important}
+.darktheme .javastringcolor{color:#88c999/*green*/!important}
+.darktheme .javanumbercolor{color:#88c999/*green*/!important}
+.darktheme .javapropertycolor{color:white!important}
+.darktheme .kotlincolor{color:white!important}
+.darktheme .kotlinkeywordcolor{color:#88c999/*green*/!important}
+.darktheme .kotlinstringcolor{color:#88c999/*green*/!important}
+.darktheme .kotlinnumbercolor{color:#88c999/*green*/!important}
+.darktheme .kotlinpropertycolor{color:white!important}
+.darktheme .phptagcolor{color:#999!important}
+.darktheme .phpcolor{color:white!important}
+.darktheme .phpkeywordcolor{color:#ff9999/*red*/!important}
+.darktheme .phpglobalcolor{color:white!important}
+.darktheme .phpstringcolor{color:#88c999/*green*/!important}
+.darktheme .phpnumbercolor{color:#88c999/*green*/!important}
+.darktheme .pythoncolor{color:white!important}
+.darktheme .pythonkeywordcolor{color:#ff9999/*red*/!important}
+.darktheme .pythonstringcolor{color:#88c999/*green*/!important}
+.darktheme .pythonnumbercolor{color:#88c999/*green*/!important}
+.darktheme .angularstatementcolor{color:#ff9999/*red*/!important}
+.darktheme .sqlcolor{color:white!important}
+.darktheme .sqlkeywordcolor{color:#80b6ff/*blue*/!important}
+.darktheme .sqlstringcolor{color:#88c999/*green*/!important}
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important
+}
